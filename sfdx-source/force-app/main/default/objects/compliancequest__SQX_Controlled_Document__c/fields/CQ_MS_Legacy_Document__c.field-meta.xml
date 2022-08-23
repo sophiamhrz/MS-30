@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CQ_MS_Legacy_Document__c</fullName>
+    <description>Custom Legacy Document Text field for controlled documents. 
+        Custom Field for any Legacy Document for the Controlled Document.</description>
+    <externalId>false</externalId>
+    <label>Legacy Document</label>
+    <length>40</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This gives the permission to the CAPA related fields and classes.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_CAPA__c.CQ_MS_Area_Level_Risk_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_CAPA__c.CQ_MS_Area_Level_Risk__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_CAPA__c.CQ_MS_Asset_Reliability_Risk_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_CAPA__c.CQ_MS_Asset_Reliability_Risk_FMEA__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_CAPA__c.CQ_MS_CAPA_Subtype__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_CAPA__c.CQ_MS_Corporate_Level_Risk_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_CAPA__c.CQ_MS_Corporate_Level_Risk__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_CAPA__c.CQ_MS_Need_Risk_Analysis__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_CAPA__c.CQ_MS_Process_Level_Risk_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_CAPA__c.CQ_MS_Process_Level_Risk_FMEA__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CQ MS CAPA Permission Set</label>
+</PermissionSet>

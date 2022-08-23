@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Audit Finding</fullName>
+        <default>false</default>
+        <label>Audit Finding</label>
+    </customValue>
+    <customValue>
+        <fullName>Claim</fullName>
+        <default>false</default>
+        <label>Claim</label>
+    </customValue>
+    <customValue>
+        <fullName>Performance Metrics</fullName>
+        <default>false</default>
+        <label>Performance Metrics</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Quality</fullName>
+        <default>false</default>
+        <label>Product Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>Safety Incident</fullName>
+        <default>false</default>
+        <label>Safety Incident</label>
+    </customValue>
+    <customValue>
+        <fullName>Service Center Quality</fullName>
+        <default>false</default>
+        <label>Service Center Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>Transit Quality</fullName>
+        <default>false</default>
+        <label>Transit Quality</label>
+    </customValue>
+    <customValue>
+        <fullName>Management Review</fullName>
+        <default>false</default>
+        <label>Management Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Administrative Quality</fullName>
+        <default>true</default>
+        <label>Administrative Quality</label>
+    </customValue>
+    <masterLabel>CAPA Subtype</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

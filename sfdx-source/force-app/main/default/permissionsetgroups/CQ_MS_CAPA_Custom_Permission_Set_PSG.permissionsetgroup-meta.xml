@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CQ MS CAPA Custom Permission Set PSG</label>
+    <permissionSets>CQ_MS_CAPA_Permission_Set</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

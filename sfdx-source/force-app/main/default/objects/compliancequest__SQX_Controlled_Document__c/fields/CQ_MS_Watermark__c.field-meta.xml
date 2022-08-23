@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CQ_MS_Watermark__c</fullName>
+    <description>Custom watermark text field for controlled documents.
+If document status is current, watermark must be removed.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(compliancequest__Document_Status__c, &apos;Current&apos;),&apos;&apos;,TEXT(compliancequest__Document_Status__c) )</formula>
+    <inlineHelpText>Custom watermark text</inlineHelpText>
+    <label>Watermark</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

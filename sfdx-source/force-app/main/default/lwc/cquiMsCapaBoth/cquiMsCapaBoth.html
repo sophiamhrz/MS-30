@@ -1,0 +1,262 @@
+<template>
+    
+    <c-cq-record-form-container has-loaded={allDone} hide-save={hideSave} title={pageTitle} onsave={saveRecord} oncancel={cancelForm} onsaveandnew={saveAndNewForm} is-saving={isSaving}
+    main-obj={objInfo} form-errors={formErrors} lightning-icon="" save-and-new="true">
+        <div slot="sections" class="slds-col slds-size_1-of-1">
+                    
+                
+                   
+        <template if:true={sectionHider.expando_unique_id_1}>
+            <c-cq-record-form-section section-title={CQMS_DETAILS} expando-unique-id="expando-unique-id-1" edit-heading="true" detail-heading="true">
+                <div slot="sectionsItem">
+                    <div class="slds-grid slds-gutters slds-wrap">
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__CAPA_TYPE__C} value={v_COMPLIANCEQUEST__CAPA_TYPE__C}
+                                            display-value={d_COMPLIANCEQUEST__CAPA_TYPE__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Required">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_CQ_MS_CAPA_SUBTYPE__C} value={v_CQ_MS_CAPA_SUBTYPE__C}
+                                            display-value={d_CQ_MS_CAPA_SUBTYPE__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__TITLE__C} value={v_COMPLIANCEQUEST__TITLE__C}
+                                            display-value={d_COMPLIANCEQUEST__TITLE__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Required">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__ISSUED_DATE__C} value={v_COMPLIANCEQUEST__ISSUED_DATE__C}
+                                            display-value={d_COMPLIANCEQUEST__ISSUED_DATE__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Required">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__DESCRIPTION__C} value={v_COMPLIANCEQUEST__DESCRIPTION__C}
+                                            display-value={d_COMPLIANCEQUEST__DESCRIPTION__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Required">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__TARGET_DUE_DATE__C} value={v_COMPLIANCEQUEST__TARGET_DUE_DATE__C}
+                                            display-value={d_COMPLIANCEQUEST__TARGET_DUE_DATE__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Required">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__SQX_SERVICE__C} value={v_COMPLIANCEQUEST__SQX_SERVICE__C}
+                                            display-value={d_COMPLIANCEQUEST__SQX_SERVICE__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__RECOMMENDED_ACTION__C} value={v_COMPLIANCEQUEST__RECOMMENDED_ACTION__C}
+                                            display-value={d_COMPLIANCEQUEST__RECOMMENDED_ACTION__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__OPERATION__C} value={v_COMPLIANCEQUEST__OPERATION__C}
+                                            display-value={d_COMPLIANCEQUEST__OPERATION__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__EXTERNAL_REFERENCE_NUMBER__C} value={v_COMPLIANCEQUEST__EXTERNAL_REFERENCE_NUMBER__C}
+                                            display-value={d_COMPLIANCEQUEST__EXTERNAL_REFERENCE_NUMBER__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__SQX_ACCOUNT__C} value={v_COMPLIANCEQUEST__SQX_ACCOUNT__C}
+                                            display-value={d_COMPLIANCEQUEST__SQX_ACCOUNT__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__SQX_EXTERNAL_CONTACT__C} value={v_COMPLIANCEQUEST__SQX_EXTERNAL_CONTACT__C}
+                                            display-value={d_COMPLIANCEQUEST__SQX_EXTERNAL_CONTACT__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                         
+                    </div>
+                </div>
+            </c-cq-record-form-section>
+        </template>
+                 
+            
+                
+                   
+        <template if:true={sectionHider.expando_unique_id_2}>
+            <c-cq-record-form-section section-title={CQMS_OWNERSHIP} expando-unique-id="expando-unique-id-2" edit-heading="true" detail-heading="true">
+                <div slot="sectionsItem">
+                    <div class="slds-grid slds-gutters slds-wrap">
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__SQX_CAPA_COORDINATOR__C} value={v_COMPLIANCEQUEST__SQX_CAPA_COORDINATOR__C}
+                                            display-value={d_COMPLIANCEQUEST__SQX_CAPA_COORDINATOR__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Required">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__ORG_DIVISION__C} value={v_COMPLIANCEQUEST__ORG_DIVISION__C}
+                                            display-value={d_COMPLIANCEQUEST__ORG_DIVISION__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__SQX_CAPA_SPONSOR__C} value={v_COMPLIANCEQUEST__SQX_CAPA_SPONSOR__C}
+                                            display-value={d_COMPLIANCEQUEST__SQX_CAPA_SPONSOR__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__SQX_DEPARTMENT__C} value={v_COMPLIANCEQUEST__SQX_DEPARTMENT__C}
+                                            display-value={d_COMPLIANCEQUEST__SQX_DEPARTMENT__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                         
+                    </div>
+                </div>
+            </c-cq-record-form-section>
+        </template>
+                 
+            
+                
+                   
+        <template if:true={sectionHider.expando_unique_id_3}>
+            <c-cq-record-form-section section-title={CQMS_EFFECTIVENESS_REVIEW} expando-unique-id="expando-unique-id-3" edit-heading="true" detail-heading="true">
+                <div slot="sectionsItem">
+                    <div class="slds-grid slds-gutters slds-wrap">
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__EFFECTIVENESS_VERIFICATION_PLAN__C} value={v_COMPLIANCEQUEST__EFFECTIVENESS_VERIFICATION_PLAN__C}
+                                            display-value={d_COMPLIANCEQUEST__EFFECTIVENESS_VERIFICATION_PLAN__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                        
+                            
+                            <div class="slds-col slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                                    
+                                    
+                                <c-cq-form-item class="cq-form-item" field={f_COMPLIANCEQUEST__EFFECTIVENESS_MONITORING_DAYS__C} value={v_COMPLIANCEQUEST__EFFECTIVENESS_MONITORING_DAYS__C}
+                                            display-value={d_COMPLIANCEQUEST__EFFECTIVENESS_MONITORING_DAYS__C} onvaluechanged={valueChanged} 
+                                            layout-behaviour="Edit">
+                                </c-cq-form-item>
+                                
+                            </div>
+                         
+                    </div>
+                </div>
+            </c-cq-record-form-section>
+        </template>
+                 
+            
+                
+                   
+        <template if:true={sectionHider.expando_unique_id_4}>
+            <c-cq-record-form-section section-title={CQMS_CUSTOM_LINKS} expando-unique-id="expando-unique-id-4" edit-heading="false" detail-heading="true">
+                <div slot="sectionsItem">
+                    <div class="slds-grid slds-gutters slds-wrap">
+                         
+                    </div>
+                </div>
+            </c-cq-record-form-section>
+        </template>
+                 
+            
+    
+        
+
+        </div>
+    </c-cq-record-form-container>
+</template>

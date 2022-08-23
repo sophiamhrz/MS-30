@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CQCQMSDOC_CONTENT</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Content</value>
+    </labels>
+    <labels>
+        <fullName>CQCQMSDOC_DOCUMENT_APPROVERS</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Document Approvers</value>
+    </labels>
+    <labels>
+        <fullName>CQCQMSDOC_DOCUMENT_TYPE</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Document Type</value>
+    </labels>
+    <labels>
+        <fullName>CQCQMSDOC_PROFILE</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Profile</value>
+    </labels>
+    <labels>
+        <fullName>CQMS_CUSTOM_LINKS</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Custom Links</value>
+    </labels>
+    <labels>
+        <fullName>CQMS_DETAILS</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Details</value>
+    </labels>
+    <labels>
+        <fullName>CQMS_EFFECTIVENESS_REVIEW</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Effectiveness Review</value>
+    </labels>
+    <labels>
+        <fullName>CQMS_INFORMATION</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Information</value>
+    </labels>
+    <labels>
+        <fullName>CQMS_NEW</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Grid</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>CQMS_NEW_5_WHY</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Grid</shortDescription>
+        <value>New 5 Why</value>
+    </labels>
+    <labels>
+        <fullName>CQMS_NEW_STANDARD</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Grid</shortDescription>
+        <value>New Standard</value>
+    </labels>
+    <labels>
+        <fullName>CQMS_OPEN_5_WHY</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Grid</shortDescription>
+        <value>Open 5 Why</value>
+    </labels>
+    <labels>
+        <fullName>CQMS_OWNERSHIP</fullName>
+        <categories>CQ UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQUI Form</shortDescription>
+        <value>Ownership</value>
+    </labels>
+    <labels>
+        <fullName>CQ_CCC_UI_Approver</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQ CCC UI Approver</shortDescription>
+        <value>Approved By</value>
+    </labels>
+    <labels>
+        <fullName>CQ_CCC_UI_Date_Approved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQ CCC UI Date Approved</shortDescription>
+        <value>Date Approved</value>
+    </labels>
+    <labels>
+        <fullName>CQ_CCC_UI_Step</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CQ CCC UI Step</shortDescription>
+        <value>Step</value>
+    </labels>
+</CustomLabels>

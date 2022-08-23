@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CQ_MS_Restrict_Adding_Approvers</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISNEW(),NOT($Permission.CQ_MS_Add_Approvers),
+IsBlank(compliancequest__SQX_Controlled_Document__r.compliancequest__SQX_Copy_Of__c))</errorConditionFormula>
+    <errorMessage>You are not authorized to add approvers.  Please contact CQ Administrator</errorMessage>
+</ValidationRule>

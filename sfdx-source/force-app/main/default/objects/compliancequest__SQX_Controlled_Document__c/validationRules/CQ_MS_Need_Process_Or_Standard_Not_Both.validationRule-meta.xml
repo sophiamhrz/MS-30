@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CQ_MS_Need_Process_Or_Standard_Not_Both</fullName>
+    <active>true</active>
+    <description>Validation rule to ensure that Either Service or Standard is required but not both.</description>
+    <errorConditionFormula>OR (
+    AND( ! ISBLANK ( compliancequest__SQX_Service__c ),
+         ! ISPICKVAL(  CQ_MS_System_Standard__c, &quot;&quot; )
+       ),
+    AND (
+          ISBLANK ( compliancequest__SQX_Service__c ), 
+          ISPICKVAL(  CQ_MS_System_Standard__c, &quot;&quot; )
+        )
+  )</errorConditionFormula>
+    <errorMessage>Either Process or System Standard is required to be populated. A record cannot have value for both of these fields.</errorMessage>
+</ValidationRule>

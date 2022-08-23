@@ -1,0 +1,9 @@
+Hi ,
+
+You’ve been assigned a task to assign approvers and training to document {!compliancequest__SQX_Controlled_Document__c.Name} : {!compliancequest__SQX_Controlled_Document__c.compliancequest__Title__c}.
+
+Please complete this task by: {!compliancequest__SQX_Controlled_Document__c.CQ_MS_Add_Training_Due_Date__c}
+
+Click here to access the document record:
+
+{!compliancequest__SQX_Controlled_Document__c.Link}

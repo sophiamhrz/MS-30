@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>compliancequest__CQ</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <classAccesses>
+        <apexClass>cqext__CQUI_Form_Controller</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <description>Custom permission set for controlled document configuration</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_Controlled_Document__c.CQ_MS_Legacy_Document__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>compliancequest__SQX_Controlled_Document__c.CQ_MS_System_Standard__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>compliancequest__SQX_Controlled_Document__c.CQ_MS_Watermark__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CQ MS Controlled Document Custom Permission Set</label>
+    <pageAccesses>
+        <apexPage>CQ_CCC_Controlled_Document_Profile_Page</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <tabSettings>
+        <tab>compliancequest__SQX_Controlled_Document__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>compliancequest__SQX_Document_Folder</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>CQ MS Notify CAPA Team Member</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CQ MS Notify CAPA Team Member</name>
+    <style>none</style>
+    <subject>Added to CAPA Team - {!compliancequest__SQX_CAPA__c.Name} - {!compliancequest__SQX_CAPA__c.compliancequest__Title__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

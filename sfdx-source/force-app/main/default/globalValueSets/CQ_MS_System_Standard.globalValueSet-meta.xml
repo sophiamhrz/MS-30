@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Quality Management System</fullName>
+        <default>false</default>
+        <label>Quality Management System</label>
+    </customValue>
+    <customValue>
+        <fullName>Management Responsibility</fullName>
+        <default>false</default>
+        <label>Management Responsibility</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Realization</fullName>
+        <default>false</default>
+        <label>Product Realization</label>
+    </customValue>
+    <customValue>
+        <fullName>Measurement, Analysis, and Improvement</fullName>
+        <default>false</default>
+        <label>Measurement, Analysis, and Improvement</label>
+    </customValue>
+    <customValue>
+        <fullName>Resource Management</fullName>
+        <default>false</default>
+        <label>Resource Management</label>
+    </customValue>
+    <masterLabel>CQ MS System Standard</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>CQ MS 1.0.0</label>
+    <protected>false</protected>
+    <values>
+        <field>CQ_MS_Release_Description__c</field>
+        <value xsi:type="xsd:string">CQ MS Release 1.0.0 for Controlled Document and CAPA Configuration</value>
+    </values>
+    <values>
+        <field>CQ_MS_Release_Number__c</field>
+        <value xsi:type="xsd:string">1.0.0</value>
+    </values>
+</CustomMetadata>

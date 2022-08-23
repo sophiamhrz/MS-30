@@ -1,0 +1,40 @@
+CQ BB PACKAGE INFORMATION
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PACKAGE CONVERT
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sfdx force:mdapi:convert -r C:/AMBARKAAR/Repo/'CLIENT CUSTOMIZATIONS'/beta-bionics/Main/src -d C:/AMBARKAAR/Repo/'CLIENT CUSTOMIZATIONS'/beta-bionics/Source/'CQ SO Unlocked Package'/'CQ Beta Bionics'/force-app
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Package Segregation:
+1. Remove CQ Configured custom metadata - Potrait and landscape and move it to the external unnamed package.
+2. Remove compliancequest layouts and move it to the named external package
+3. Remove fieldset from controlled document object
+4. Remove controlled document object's override sections to unnamed external package.
+removed approval process
+
+PACKAGE CREATE
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sfdx force:package:create -n "CQ BB Configuration" -t Unlocked -d "Unlocked CQ Configuration Package for Beta Bionics" -r force-app
+------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PACKAGE VERSION UPLOAD
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sfdx force:package:version:create -p "CQ BB Configuration" -a "CQ BB Config" -n "1.0.0.0" -e "Unlocked CQ Configuration Package for Beta Bionics" -k CQBB
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+UNLOCKED PACKAGE INFORMATION
+NAME                           VALUE
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ID                             08c1U000000CabHQAS
+Status                         Success
+Package Id                     0Ho1U000000GmdmSAC
+Package Version Id             05i1U000000CaYmQAK
+Subscriber Package Version Id  04t1U000006ZjWRQA0
+Tag
+Branch
+Created Date                   2019-03-08 15:03
+Installation URL               https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000006ZjWRQA0
+
+
+sfdx force:package:version:promote --package "05i1U000000CaYmQAK"

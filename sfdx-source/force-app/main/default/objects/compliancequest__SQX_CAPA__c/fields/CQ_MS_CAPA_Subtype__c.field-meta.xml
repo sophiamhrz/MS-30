@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CQ_MS_CAPA_Subtype__c</fullName>
+    <externalId>false</externalId>
+    <label>CAPA Subtype</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>compliancequest__CAPA_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>CAPA_Subtype</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Product Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <valueName>Service Center Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <valueName>Transit Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Audit Finding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Management Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Performance Metrics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Safety Incident</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier</controllingFieldValue>
+            <valueName>Claim</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
