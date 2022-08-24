@@ -21,9 +21,10 @@ node{
         def branchName=BRANCH_NAME.split('/');
         if(branchName[0] != 'feature'){
             currentBuild.result = 'FAILED'
+            error('Branch name matched as expected pattern. Expected pattern is: feature/ms');
             return 
         }else{
-            error('Branch name matched as expected pattern. Expected pattern is: EXTCQDGNC-XXX');
+            echo('Branch name matched as expected pattern');
             }
         }
 
