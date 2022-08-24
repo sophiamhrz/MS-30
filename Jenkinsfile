@@ -15,6 +15,12 @@ node{
     println SF_DEV_HUB_ALIAS
     println SF_INSTANCE_URL
 
+    
+    stage('checkout source') {
+        checkout scm
+        echo 'this is adarsha'
+    }
+    
     stage('Identify Branch'){
         def branchName=BRANCH_NAME.split('/');
         if(branchName[0] != 'feature'){
@@ -26,10 +32,7 @@ node{
             }
         }
 
-    stage('checkout source') {
-        checkout scm
-        echo 'this is adarsha'
-    }
+  
     withCredentials([file(credentialsId: SERVER_KEY_CREDENTALS_ID, variable: 'server_key_file')]) {
 
         stage('Authorize DevHub') {
