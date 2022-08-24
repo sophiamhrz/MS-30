@@ -7,8 +7,6 @@ node{
     def SF_INSTANCE_URL = env.SF_INSTANCE_URL ?: "https://login.salesforce.com"
     def PKG_PATH = "sfdx-source/force-app"
     def PKG = "force-app"
-
-    def Workspace = pwd()
     def BRANCH_NAME = env.BRANCH_NAME
     println 'Key is'
     println SF_CONSUMER_KEY
@@ -31,9 +29,6 @@ node{
     stage('checkout source') {
         checkout scm
         echo 'this is adarsha'
-        echo "${Workspace}"
-        sh "chmod +x ${PKG_PATH}/main/default/ada.sh"
-        sh "${PKG_PATH}/main/default/ada.sh"
     }
     withCredentials([file(credentialsId: SERVER_KEY_CREDENTALS_ID, variable: 'server_key_file')]) {
 
