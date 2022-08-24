@@ -6,8 +6,6 @@ node{
     def SF_SCRATCH_ALIAS=env.SF_SCRATCH_ALIAS
     def SF_INSTANCE_URL = env.SF_INSTANCE_URL ?: "https://login.salesforce.com"
     def PKG_PATH = "sfdx-source/force-app"
-    def Workspace = pwd()
-    
     println 'Key is'
     println SF_CONSUMER_KEY
     println SERVER_KEY_CREDENTALS_ID
